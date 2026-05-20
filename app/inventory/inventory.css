@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.field {
+  width: 30vw;
+  border-color: blue;
+  margin: 10px;
+  color: gray;
+  border: 2px solid;
+  padding: 5px;
+}
+.submitButton {
+  display: flex;
+  justify-content: center;
+  border: 2px solid;
+  border-radius: 5px;
+  padding: 5px;
+  width: 20vw;
+  cursor:pointer;
+}
+.submitButton:hover{
+    background-color: gray;
+}
